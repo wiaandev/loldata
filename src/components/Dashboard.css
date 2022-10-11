@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@300&display=swap");
+
+/* font-family: 'Archivo Black', sans-serif; MAIN FONT
+font-family: 'Exo', sans-serif; BODY COPY */
+
+.intro h2 {
+  font-family: "Archivo Black", sans-serif;
+  background: linear-gradient(
+    99deg,
+    rgba(82, 51, 251, 1) 0%,
+    rgba(226, 193, 162, 1) 100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 46px;
+  text-align: left;
+}
+
+.intro p {
+  font-family: "Exo", sans-serif;
+  color: #ececec;
+  width: 100%;
+}
+
+.intro h3 {
+  font-family: "Archivo Black";
+}
+
+.graph-block {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+  background: linear-gradient(
+    16deg,
+    rgba(34, 34, 44, 1) 77%,
+    rgba(55, 41, 134, 1) 100%,
+    rgba(82, 51, 251, 1) 100%
+  );
+}
+
+.graph-block h2 {
+  font-size: 36px;
+  color: #beacd2;
+}
+
+.region-group {
+  float: left;
+  margin: 0px;
+  text-align: center;
+}
+
+.polar {
+  width: 30%;
+}
+
+.total-players {
+  width: 20%;
+  height: 60vh;
+  float: left;
+}
+
+.welcomeMsg {
+  width: 1000px;
+  background: linear-gradient(
+    16deg,
+    rgba(34, 34, 44, 1) 77%,
+    rgba(55, 41, 134, 1) 100%,
+    rgba(82, 51, 251, 1) 100%
+  );
+  border-radius: 20px;
+  padding: 10px;
+  height: 50px;
+}
+
+.image {
+  height: 200px;
+  position: relative;
+  left: 650px;
+  bottom: 100px;
+}
+
+.graph-block h3 {
+  font-size: 14px;
+  background-color: #775ffc;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.graph-block h4 {
+  color: white;
+  padding: 5px;
+  border-radius: 20px;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.graph-block h5 {
+  color: white;
+  font-family: "Archivo Black";
+  border: 1px solid #775ffc;
+  border-radius: 30px;
+  width: 100px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.total-players h5 {
+  width: 40px;
+}
+
+.total-players select {
+  width: auto;
+}

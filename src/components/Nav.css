@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@300&display=swap");
+
+/* font-family: 'Archivo Black', sans-serif; MAIN FONT
+font-family: 'Exo', sans-serif; BODY COPY */
+
+nav {
+  width: 10%;
+  background-color: #171721;
+  height: 100vh;
+  border-radius: 20px;
+  margin-right: 20px;
+  padding: 10px;
+  float: left;
+}
+
+h1 {
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  font-size: 24px;
+  color: white;
+}
+
+li {
+  list-style: none;
+  font-family: "Exo", sans-serif;
+  font-size: 20px;
+  margin: 40px;
+  text-align: center;
+  border-radius: 20px;
+  color: #4d4d55;
+}
+
+li:hover {
+  transition: 0.2s;
+  color: #ececec;
+}
+
+ul {
+  position: relative;
+  top: 100px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.about p {
+  position: relative;
+  right: 25px;
+  color: #4d4d55;
+  margin-top: 10px;
+}
+
+.about p:hover {
+  text-decoration: underline;
+  color: #ececec;
+  transition: 0.3s ease-in-out;
+  float: left;
+}
+
+.about {
+  margin-top: 150px;
+}
+
+img {
+  text-align: center;
+  position: relative;
+  left: 20px;
+}
+
+nav h3 {
+  text-align: center;
+}

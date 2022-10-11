@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@300&display=swap");
+
+/* font-family: 'Archivo Black', sans-serif; MAIN FONT
+font-family: 'Exo', sans-serif; BODY COPY */
+
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+  font-size: 46px;
+}
+
+h3,
+p {
+  font-family: "Exo", sans-serif;
+  color: white;
+}
+
+.intro {
+  float: left;
+}
+
+.about {
+  float: right;
+}
+
+.time-block {
+  margin: 20px;
+  width: 75%;
+  border-radius: 30px;
+  box-shadow: 7px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  float: left;
+  text-align: center;
+  background-color: black;
+}
+
+.info {
+  width: 80%;
+  background-color: #727272;
+  float: left;
+  padding: 20px;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+
+.info p {
+  font-family: "Archivo Black", sans-serif;
+}
+
+.info h2 {
+  font-size: 24px;
+}
+
+ol li {
+  display: inline;
+  margin: 10px;
+}
+
+select {
+  background-color: #5233fb;
+  width: 300px;
+  text-align: center;
+}
+
+.time-block {
+  background: linear-gradient(
+    16deg,
+    rgba(34, 34, 44, 1) 77%,
+    rgba(55, 41, 134, 1) 100%,
+    rgba(82, 51, 251, 1) 100%
+  );
+  box-shadow: none;
+}

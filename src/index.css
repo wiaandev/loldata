@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@300&display=swap");
+
+/* font-family: 'Archivo Black', sans-serif; MAIN FONT
+font-family: 'Exo', sans-serif; BODY COPY */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #171721;
+  padding-right: 50px;
+  user-select: none; /* supported by Chrome and Opera */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+}

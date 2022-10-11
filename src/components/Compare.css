@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Exo:wght@300&display=swap");
+
+/* font-family: 'Archivo Black', sans-serif; MAIN FONT
+font-family: 'Exo', sans-serif; BODY COPY */
+
+h2 {
+  font-family: "Archivo Black", sans-serif;
+  color: #beacd2;
+  font-size: 46px;
+  text-align: center;
+}
+
+h3,
+p {
+  font-family: "Exo", sans-serif;
+  color: #beacd2;
+}
+
+.intro {
+  float: left;
+  margin-bottom: 50px;
+}
+
+.intro h1 {
+  color: #fbff12;
+  font-size: 48px;
+  text-align: left;
+}
+
+.about {
+  float: right;
+}
+
+.compare-block,
+.output {
+  margin: 20px;
+  width: 30%;
+  border-radius: 30px;
+  box-shadow: 7px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 7px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 7px 10px 20px 5px rgba(0, 0, 0, 0.75);
+  float: left;
+  text-align: center;
+  height: auto;
+  background-color: black;
+}
+
+h4 {
+  color: white;
+  font-family: "Exo", sans-serif;
+  margin: 10px;
+}
+
+h6 {
+  color: white;
+}
+
+select {
+  margin: 10px;
+  width: auto;
+  padding: 20px;
+  background-color: #a379c9;
+  font-family: "Exo", sans-serif;
+  font-size: 18px;
+  color: white;
+  border-radius: 20px;
+}
+
+.result h2 {
+  float: left;
+  margin-top: 100px;
+}
+
+.output p {
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.output h3 {
+  font-family: "Archivo Black", sans-serif;
+  color: white;
+}
+
+.output i {
+  color: white;
+  float: left;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.output img {
+  width: 100%;
+}
+
+.search-block {
+  margin-bottom: 10px;
+  width: 41%; /* aligns */
+  border-radius: 30px;
+  float: left;
+  text-align: center;
+}
+
+input {
+  height: 50px;
+  background-color: #22222c;
+  border: 1px solid #ececec;
+  border-radius: 50px;
+  padding: 10px;
+  float: left;
+  margin-right: 30px;
+  position: relative;
+  color: #ececec;
+  font-family: "Exo";
+}
+
+.btn-prim {
+  background-color: #ececec;
+  border: none;
+  float: left;
+  width: 100px;
+  height: 50px;
+  font-family: "Archivo Black";
+  border-radius: 10px;
+  position: relative;
+}
+
+.btn-prim:hover {
+  background-color: #5233fb;
+  transition: 0.1s ease-out;
+}
+
+.graph-block h3 {
+  color: #beacd2;
+  font-family: "Archivo Black";
+}
+
+.graph-block {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+
+.championNames ul li {
+  width: 50%;
+  display: block;
+}
+
+.graph-block p,
+.graph-block h1 {
+  display: inline;
+}
+
+.graph-block h1 {
+  font-size: 14px;
+}
+
+.graph-block span {
+  background-color: #5233fb;
+  padding: 10px;
+  border-radius: 5px;
+  margin-right: 3px;
+  margin-bottom: 100px;
+  font-size: 12px;
+}
+
+.radar {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.radar-block {
+  width: 40%;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.radar-block h3 {
+  font-size: 36px;
+}
+
+fa-scale-balanced {
+  background-color: white;
+}
