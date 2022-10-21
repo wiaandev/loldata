@@ -77,21 +77,6 @@ const TimeChart = () =>{
             
            }
            console.log(startAndEnd);
-
-           
-
-        //    setPlayTime(data.map((item) => item.StartDate.slice(0, 10)));
-
-        //     console.log(playtime);
-
-        //     setEndTime(data.map((i)=> i.EndDate));
-
-        //     console.log(endtime);
-
-        //     setStartAndEnd([[playtime, endtime]]);
-
-        //     console.log(startAndEnd);
-            
         })
 
     }

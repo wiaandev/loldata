@@ -3,7 +3,7 @@ import TimeChart from './charts/TimeChart';
 
 const Timeline = () => {
     return(
-        <>
+        <div className='container'>
             <div className='intro'>
                 <h2>Timeline</h2>
                 <div className='welcomeMsg'>
@@ -17,7 +17,7 @@ const Timeline = () => {
                 
                 <TimeChart/>
             </div>
-        </>
+        </div>
     )
 }
 

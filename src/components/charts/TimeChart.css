@@ -2,3 +2,10 @@
   height: 300px;
   padding: 10px;
 }
+
+.container{
+  width: 80%;
+  height: 100vh;
+  display:flex;
+  flex-flow: column;
+}

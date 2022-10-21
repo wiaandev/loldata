@@ -3,17 +3,30 @@
 /* font-family: 'Archivo Black', sans-serif; MAIN FONT
 font-family: 'Exo', sans-serif; BODY COPY */
 
+.container{
+  width: 80%;
+  height: 100vh;
+  display:flex;
+  flex-flow: column;
+}
+
+.dataCon{
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro{
+  width: 100%;
+}
+
 .intro h2 {
   font-family: "Archivo Black", sans-serif;
-  background: linear-gradient(
-    99deg,
-    rgba(82, 51, 251, 1) 0%,
-    rgba(226, 193, 162, 1) 100%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: rgb(82, 51, 251);
   font-size: 46px;
   text-align: left;
+  padding: 20px 0px;
 }
 
 .intro p {
@@ -62,13 +75,13 @@ font-family: 'Exo', sans-serif; BODY COPY */
 }
 
 .welcomeMsg {
-  width: 1000px;
   background: linear-gradient(
     16deg,
     rgba(34, 34, 44, 1) 77%,
     rgba(55, 41, 134, 1) 100%,
     rgba(82, 51, 251, 1) 100%
   );
+  margin-top: 20px;
   border-radius: 20px;
   padding: 10px;
   height: 50px;
@@ -83,7 +96,6 @@ font-family: 'Exo', sans-serif; BODY COPY */
 
 .graph-block h3 {
   font-size: 14px;
-  background-color: #775ffc;
   width: 75%;
   margin: 0 auto;
   border-radius: 10px;

@@ -6,7 +6,7 @@ import { Radar } from 'react-chartjs-2';
 import "https://kit.fontawesome.com/3d7d8906d0.js";
 import {useEffect, useState, useRef} from 'react';
 
-const Compare = () => {
+const Compare = () => { 
 
     const[getData, setGetData] = useState();
     // const[allChampions, setAllChampions] = useState();
@@ -84,7 +84,7 @@ const Compare = () => {
     }
 
     return(
-        <>
+        <div className='container'>
 
             <div className='intro'>
                 <h2>Compare</h2>
@@ -92,44 +92,40 @@ const Compare = () => {
                 <h3>Clash of the Champions</h3>
                 <p className='more-info'>Compare various champions up against each other and compare them based on their stats</p> 
             </div>
+
             </div>
-            
+        
             <div className='search-block'>
 
                 {/* Would use this for compare page! */}
-                <div>
-                    <div className='search'>
-                        <input onChange={filterChampions} ref={champPeep} type="search" id='champion-search' placeholder='e.g Annie' />
-                    </div>
-                    <button onClick={getChampion} className='btn-prim'>Search</button>
-                </div>
-
-                <div className='championNames'>
-                    <ul>
-                        {/* <li>{allChampions}</li> */}
-                    </ul>
-                </div>
-
-            </div>
-
-            
-
-            <div className='search-block'>
-
-                {/* Would use this for compare page! */}
-                <div>
-
-                    <div className='search'>
-                        <input ref={champPeepTwo} type="search" id='champion-search' placeholder='e.g Annie'/>
-                    </div>
-                    <button onClick={getSecondChampion} className='btn-prim'>Search</button>
-                </div>
 
             </div>
 
             <div className='result'>
 
             <div className='graph-block radar-block'> 
+
+                <div className='search-input'>
+                    <div className='search'>
+                        <input onChange={filterChampions} ref={champPeep} type="search" id='champion-search' placeholder='e.g Annie' />
+                    </div>
+                    <button onClick={getChampion} className='btn-prim'>Search</button>
+                </div>
+
+                <div className='search-block'>
+
+                    {/* Would use this for compare page! */}
+
+
+                    <div className='championNames'>
+                        <ul>
+                            {/* <li>{allChampions}</li> */}
+                        </ul>
+                    </div>
+
+                </div>
+
+
                 <h3>{showChampion}</h3>
                 <h4>{championTitle}</h4>
                 <div className='radar'>
@@ -182,6 +178,11 @@ const Compare = () => {
             </div>
 
             <div className='graph-block radar-block'> 
+
+                <div className='search-input'>
+                    <input ref={champPeepTwo} type="search" id='champion-search' placeholder='e.g Annie'/>
+                    <button onClick={getSecondChampion} className='btn-prim'>Search</button>
+                </div>
                 <h3>{showChampionTwo}</h3>
                 <h4>{championTitleTwo}</h4>
                 <div className='radar'>
@@ -234,7 +235,7 @@ const Compare = () => {
                     
             </div>
 
-        </>
+        </div>
     )
 }
 

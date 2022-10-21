@@ -100,7 +100,7 @@ const Dashboard = () => {
 
     return(
 
-    <>
+    <div className='container'>
         <div className='intro'>
             <h2>Greetings, Summoner</h2>
             <div className='welcomeMsg'>
@@ -111,6 +111,7 @@ const Dashboard = () => {
 
         </div>
 
+        <div className='dataCon'>
         {/* Turn into pie chart */}
         <div className='graph-block pie'>
             <h2>Players per Role</h2>
@@ -141,9 +142,11 @@ const Dashboard = () => {
             <h4>Amount of items in the game</h4>
             <h5>{items}</h5>
         </div>
+        </div>
+       
 
         
-    </>
+    </div>
     )
     
 }
